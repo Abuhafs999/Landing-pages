@@ -1,0 +1,98 @@
+html,body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.wrapper{
+    width: 450px;
+}
+section.icon{
+    padding: 24px 24px;
+    margin:20px 0  ;
+    font-size: 25px;
+    border-radius: 48px;
+    border: 4px solid white;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+}
+.butt{
+    margin: 20px 0 16px 0;
+    padding: 20px 70px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid blue;
+    color: #f4f4f4;
+    background-color: blue;
+   box-shadow: 1px 3px 5px 0px rgba(23,56,227,0.75);
+-webkit-box-shadow: 1px 3px 5px 0px rgba(23,56,227,0.75);
+-moz-box-shadow: 1px 3px 5px 0px rgba(23,56,227,0.75);
+}
+.nutt{
+    padding: 20px 70px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+    color: #030000;
+    background-color: white;
+    
+}
+main h1{
+    color: rgb(15, 0, 0);
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+    
+}
+.body{
+    background-color: hsl(225, 100%, 94%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-image: url(./img/pattern-background-desktop.svg);
+}
+
+.content{
+    background-color: white;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    text-align: center;
+    padding: 40px 32px;
+}
+.icontag{
+    display: flex;
+}
+.banner img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+}
+.tag{
+    margin-left: 24px;
+    
+}
+.icon button{
+    background-color: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: capitalize;
+}
+.icontag img{
+    width: 80px;
+    height: 80px;
+}
+.tag .bold{
+    font-weight: bold;
+    margin-bottom: 16px;
+    display: block;
+}
+.content p{
+    width: 80%;
+    text-align: center;
+    margin: auto auto;
+}
